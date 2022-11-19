@@ -1,0 +1,6 @@
+{
+    "mongoURI" :"mongodb://root:JklasD2011@ac-foxlxik-shard-00-00.3kvkoyt.mongodb.net:27017,ac-foxlxik-shard-00-01.3kvkoyt.mongodb.net:27017,ac-foxlxik-shard-00-02.3kvkoyt.mongodb.net:27017/shorten-url?ssl=true&replicaSet=atlas-3y3b4s-shard-0&authSource=admin&retryWrites=true&w=majority", 
+    "baseUrl": "http://localhost:3000",
+    "baseURL": "http:/link.otech.id"
+
+}

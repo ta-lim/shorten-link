@@ -1,0 +1,30 @@
+#header{
+    text-align: center;
+}
+
+#input{
+    text-align: center;
+}
+
+.btn-submit{
+    margin-top: 5px;
+    margin-left: 4px;
+
+}
+
+.resp{
+    text-align: center;
+}
+
+#view-short{
+    line-height: 1px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#short-link{
+    margin-top: 5px;
+    margin-left: 2px;
+}

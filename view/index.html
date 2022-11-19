@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./assets/style.css" /> -->
+
+    <title>Shorten URL</title>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Shorten URL</h1>
+    </div>
+
+    <div id="input">
+      <h2>Input URL</h2>
+      <section>
+        <!-- <fieldset>
+                <input type="text" id="link" placeholder="https://usayit.otech.id/" >
+                <input type="button" id="submit-btn" value="Shorten URL">
+            </fieldset> -->
+        <div>
+          <input
+            type="text"
+            id="long-link"
+            placeholder="https://usayit.otech.id/"
+            required
+          />
+        </div>
+
+        <div id="view-short">
+          <p>link.otech.id/</p>
+          <div>
+            <input type="text" id="short-link" placeholder="/UKT-jaya" required/>
+            <input type="button" id="random-btn" value="random">
+          </div>
+        <div id="short-link" class="btn-submit">
+                <input type="button" id="submit-btn" value="Shorten URL">
+            </div>
+      </section>
+    </div> 
+   
+    <!-- <form id="form-link">
+      <input type="text" id="long-link" placeholder="https://usayit.otech.id/" required/>
+      <input type="text" id="short-link" placeholder="/UKT-jaya" required/>
+      <input type="button" id="submit-btn" value="Shorten URL" />
+    </form> -->
+
+    <div class="resp">
+      <h2>Shorten</h2>
+      <a id="shortLink"></a>
+      <button id="copyBtn" type ="button" hidden>copy</button>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
