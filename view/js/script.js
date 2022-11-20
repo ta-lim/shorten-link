@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
       //`link.otech.id/${}`
     };
     putLink(objLink);
-    fetch("/api/url/shorten", {
+    fetch("http://link.otech.id:3003/api/url/shorten", {
       method: "POST",
       headers: {
         "Content-type": "application/json",
