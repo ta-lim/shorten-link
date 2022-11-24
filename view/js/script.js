@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
       //`link.otech.id/${}`
     };
     putLink(objLink);
-    fetch("http://link.otech.id:3003/api/url/shorten", {
+    fetch("https://link.otech.id/api/url/shorten", {
       method: "POST",
       headers: {
         "Content-type": "application/json",
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
   })
 
   btnRandom.addEventListener('click', () => {
-    fetch('/api/url/random', {
+    fetch('https://link.otech.id/api/url/random', {
       method: "GET"
     })
     .then((r)=> 
